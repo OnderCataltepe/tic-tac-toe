@@ -1,0 +1,33 @@
+.multiDiv {
+  margin-top: 3rem;
+  width: 100%;
+}
+.multiDiv form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.multiDiv form p {
+  font-size: 4rem;
+  margin: 2rem 0rem 1rem 0rem;
+}
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputDiv label {
+  font-size: 2rem;
+}
+
+.inputDiv input {
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 0.2rem solid black;
+}
+
+.playButton {
+  margin-top: 3rem;
+}

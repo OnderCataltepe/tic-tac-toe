@@ -1,0 +1,16 @@
+.gridContainer {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(3, 8rem);
+  grid-template-rows: repeat(3, 8rem);
+  background-color: black;
+  box-shadow: rgba(51, 51, 51, 0.2) 0px 7px 29px 0px;
+}
+.gridContainer > div {
+  padding: 0.5rem;
+  background: radial-gradient(rgb(252, 252, 252), rgb(105, 103, 103));
+
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}

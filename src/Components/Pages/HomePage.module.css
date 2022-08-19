@@ -1,0 +1,11 @@
+.animationDiv {
+  width: 30rem;
+  height: auto;
+}
+
+.buttonDiv {
+  display: flex;
+  width: 90%;
+  padding: 4rem 0rem;
+  flex: 1 1 0;
+}

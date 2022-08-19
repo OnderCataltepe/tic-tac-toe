@@ -1,0 +1,76 @@
+.singleDiv {
+  margin-top: 2rem;
+  width: 100%;
+}
+.singleDiv form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singleDiv form p:nth-child(1) {
+  font-size: 4.5rem;
+  margin-top: 2rem;
+}
+
+.singleDiv form p:nth-child(2) {
+  font-size: 2.5rem;
+  margin: 2rem 0rem 1rem 0rem;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputDiv label {
+  font-size: 2rem;
+}
+
+.inputDiv input {
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 0.2rem solid black;
+}
+.radioDiv {
+  background: transparent;
+  padding: 4px;
+  border-radius: 3px;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.radioDiv input {
+  width: auto;
+  height: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 4px 8px;
+  background: transparent;
+  color: black;
+  font-size: 2rem;
+  transition: all 100ms linear;
+}
+
+.radioDiv input:checked {
+  background-image: linear-gradient(180deg, #2a2b29, #525252);
+  color: white;
+  box-shadow: 0 1px 1px #0000002e;
+  text-shadow: 0 1px 0px #79485f7a;
+  letter-spacing: 0.1rem;
+}
+
+.radioDiv input:before {
+  content: attr(label);
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.playButton {
+  margin-top: 2rem;
+}

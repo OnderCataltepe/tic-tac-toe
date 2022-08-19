@@ -1,0 +1,47 @@
+.bgContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 40rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(230, 228, 228);
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0rem 0rem 1rem 0rem black;
+  opacity: 0.75;
+}
+.cardContainer p {
+  text-align: center;
+  font-size: 3rem;
+  word-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+.imgDiv {
+  position: relative;
+  height: 30rem;
+}
+.imgDiv img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 25rem;
+  width: auto;
+  opacity: 0.9;
+}
+.continueButton {
+  margin-top: 3rem;
+}
