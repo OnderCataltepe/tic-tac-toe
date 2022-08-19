@@ -25,7 +25,6 @@ const MultiForm = () => {
       dispatch(
         gameActions.startMulti({ p1: inputValues.p1, p2: inputValues.p2 })
       );
-      console.log(inputValues);
     }
     if (inputValues.p1.trim().length === 0) {
       p1Ref.current.focus();

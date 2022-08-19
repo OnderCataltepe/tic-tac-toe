@@ -10,6 +10,7 @@ import drawX from "../../assets/drawX.json";
 //Redux
 import { useDispatch, useSelector } from "react-redux";
 import { gameActions } from "../../redux/GameSlice";
+import { faCommentsDollar } from "@fortawesome/free-solid-svg-icons";
 
 const SingleBoard = () => {
   const { tie, isO, winner, winningCells, initialCells, difficulty } =
@@ -157,6 +158,8 @@ const SingleBoard = () => {
         if (seeMoveArray.length > 0) {
           console.log(seeMoveArray);
           return moveHandler(seeMoveArray[0]);
+        } else {
+          return moveHandler(3);
         }
       } else if (
         !cells[4].isX &&

@@ -14,7 +14,6 @@ const SingleForm = () => {
   const [difficultyValue, setDifficultyValue] = useState("Easy");
   const difficultyHandler = (e) => {
     setDifficultyValue(e.target.value);
-    console.log(e.target.value);
   };
   const submitHandler = (e) => {
     e.preventDefault();
@@ -27,8 +26,6 @@ const SingleForm = () => {
           difficulty: difficultyValue,
         })
       );
-      console.log(inputValue);
-      console.log(difficultyValue);
     }
   };
 
